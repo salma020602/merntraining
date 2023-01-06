@@ -37,4 +37,4 @@ console.log('Ceil Value 3.9 = ${Math.ceil(3.9)}')
 console.log('Floor Value -2.1= ${Math.floor(-2.1)}')
 console.log('Ceil Value -2.1 = ${Math.ceil(-2.1)}')
 
-console.log('Trunc 45.78 = ${Math.trunc(45.78)}'))
+console.log('Trunc 45.78 = ${Math.trunc(45.78)}')
