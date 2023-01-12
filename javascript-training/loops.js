@@ -13,7 +13,7 @@ function forDemo() {
 
 function whileDemo() {
 
-    let is Uploading = false
+    let isUploading = false
 
     while(isUploading) {
         console.log('Uploading Files')
@@ -21,7 +21,8 @@ function whileDemo() {
 }
 
 function doWhileDemo() {
-    const isLive = falsedo {
+    const isLive = false
+    do {
         console.log('Trying to Connect')
     } while(!isLive)
 }
