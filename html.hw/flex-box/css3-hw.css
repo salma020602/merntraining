@@ -1,0 +1,45 @@
+:root {
+    --nm: yellowgreen;
+    --hv: cadetblue;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: var(--nm);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    
+
+    background-color: beige;
+}
+
+.box1:hover {
+    background-color: var(--hv);
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: var(--nm);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    
+
+    background-color: beige;
+}
+
+.box2:hover {
+    background-color:var(--hv) ;
+}
+
