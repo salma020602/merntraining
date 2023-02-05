@@ -1,0 +1,26 @@
+:root {
+    --nm : yellowgreen;
+    --hv : cadetblue;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color:var(--nm) ;
+
+}
+
+.container { 
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-around;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    background-color: var(--hv);
+
+}
+
+.box:hover {
+    background-color:var(--hv) ;
+}
