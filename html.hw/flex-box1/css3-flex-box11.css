@@ -3,43 +3,28 @@
     --hv: cadetblue;
 }
 
-.box1 {
-    width: 200px;
-    height: 200px;
-    background-color: var(--nm);
-
-}
-
-.container {
+.big-container {
+    width: 200vw;
+    height: 200vh;
     display: flex;
-    flex-direction: row;
+
+    justify-content: space-between;
     justify-content: space-around;
 
-    gap: 15px;
-    background-color: beige;
 }
 
-.box2 {
-    width: 200px;
-    height: 200px;
-    background-color: var(--hv);
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: var(--nm)
 }
 
 .container {
     display: flex;
-    flex-direction: row;
-    align-content: space-around;
-
-
-    gap: 15px;
-    background-color: beige;
-
+    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .box1:hover {
     background-color: var(--hv);
-}
-
-.box2:hover {
-    background-color: var(--nm);
 }
