@@ -5,8 +5,8 @@
 
 
 .box1 {
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
     background-color: var(--nm);
 
 }
@@ -23,9 +23,23 @@
     background-color: beige;
 }
 
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: var(--nm);
+}
+
+.cont4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 30px;
+    background-color: beige;
+}
+
 .box2 {
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
     background-color: var(--nm);
 }
 
@@ -40,9 +54,23 @@
     background-color: beige;
 }
 
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: var(--nm)
+}
+
+.cont5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: beige;
+}
+
 .box3 {
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
     background-color: var(--nm);
 }
 
