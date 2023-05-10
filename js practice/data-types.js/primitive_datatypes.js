@@ -1,3 +1,4 @@
+
 //nn ss bb u are primitive data types in js
 let a = null;
 let b = 123;
